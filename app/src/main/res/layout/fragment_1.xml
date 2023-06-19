@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8AAAE5"
+    android:id="@+id/frame1"
+    tools:context=".Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="790dp"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Mobile Computing"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/img6" />
+
+                <RelativeLayout
+                    android:layout_width="210dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="  Quiz-1"
+                        android:textColor="@color/black"
+                        android:textSize="28dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="40dp"
+                        android:text="    introduction"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="15:00 pm"
+                        android:textSize="18dp"
+                        android:textColor="#7A6E6E"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="40dp"
+                        android:gravity="center"
+                        android:text="10/03/2022"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/img6"/>
+
+                <RelativeLayout
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="  Quiz-2"
+                        android:textColor="@color/black"
+                        android:textSize="28dp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="40dp"
+                        android:text="    introduction"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="14:00 pm"
+                        android:textSize="18dp"
+                        android:textColor="#7A6E6E"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="11/03/2022"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"
+                        android:layout_marginTop="40dp"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l3"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/img6" />
+
+                <RelativeLayout
+                    android:layout_width="210dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="  Quiz-3"
+                        android:textColor="@color/black"
+                        android:textSize="28dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="40dp"
+                        android:text="    introduction"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="16:00 pm"
+                        android:textSize="18dp"
+                        android:textColor="#7A6E6E"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="40dp"
+                        android:gravity="center"
+                        android:text="12/03/2022"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/img6"/>
+
+                <RelativeLayout
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="  Quiz-4"
+                        android:textColor="@color/black"
+                        android:textSize="28dp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="40dp"
+                        android:text="    introduction"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="15:00 pm"
+                        android:textSize="18dp"
+                        android:textColor="#7A6E6E"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="13/03/2022"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"
+                        android:layout_marginTop="40dp"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l5"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/img6" />
+
+                <RelativeLayout
+                    android:layout_width="210dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="  Quiz-5"
+                        android:textColor="@color/black"
+                        android:textSize="28dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="40dp"
+                        android:text="    introduction"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="15:00 pm"
+                        android:textSize="18dp"
+                        android:textColor="#7A6E6E"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="40dp"
+                        android:gravity="center"
+                        android:text="14/03/2022"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l6"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/img6"/>
+
+                <RelativeLayout
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="  Quiz-6"
+                        android:textColor="@color/black"
+                        android:textSize="28dp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="40dp"
+                        android:text="    introduction"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="12:00 pm"
+                        android:textSize="18dp"
+                        android:textColor="#7A6E6E"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="16/03/2022"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"
+                        android:layout_marginTop="40dp"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l7"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/img6" />
+
+                <RelativeLayout
+                    android:layout_width="210dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="  Quiz-7"
+                        android:textColor="@color/black"
+                        android:textSize="28dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="40dp"
+                        android:text="    introduction"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="13:00 pm"
+                        android:textSize="18dp"
+                        android:textColor="#7A6E6E"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="40dp"
+                        android:gravity="center"
+                        android:text="17/03/2022"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l8"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/img6"/>
+
+                <RelativeLayout
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="  Quiz-8"
+                        android:textColor="@color/black"
+                        android:textSize="28dp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="40dp"
+                        android:text="    introduction"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="14:00 pm"
+                        android:textSize="18dp"
+                        android:textColor="#7A6E6E"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="18/03/2022"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"
+                        android:layout_marginTop="40dp"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l9"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/img6" />
+
+                <RelativeLayout
+                    android:layout_width="210dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="  Quiz-9"
+                        android:textColor="@color/black"
+                        android:textSize="28dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="40dp"
+                        android:text="    introduction"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="15:00 pm"
+                        android:textSize="18dp"
+                        android:textColor="#7A6E6E"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="40dp"
+                        android:gravity="center"
+                        android:text="19/03/2022"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l10"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/img6"/>
+
+                <RelativeLayout
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="  Quiz-10"
+                        android:textColor="@color/black"
+                        android:textSize="28dp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="40dp"
+                        android:text="    introduction"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="12:00 pm"
+                        android:textSize="18dp"
+                        android:textColor="#7A6E6E"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="20/03/2022"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"
+                        android:layout_marginTop="40dp"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l11"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/img6" />
+
+                <RelativeLayout
+                    android:layout_width="210dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="  Quiz-11"
+                        android:textColor="@color/black"
+                        android:textSize="28dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="40dp"
+                        android:text="    introduction"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="14:00 pm"
+                        android:textSize="18dp"
+                        android:textColor="#7A6E6E"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="40dp"
+                        android:gravity="center"
+                        android:text="21/03/2022"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l12"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/img6"/>
+
+                <RelativeLayout
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="  Quiz-12"
+                        android:textColor="@color/black"
+                        android:textSize="28dp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="40dp"
+                        android:text="    introduction"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="15:00 pm"
+                        android:textSize="18dp"
+                        android:textColor="#7A6E6E"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="21/03/2022"
+                        android:textSize="16dp"
+                        android:textColor="#7A6E6E"
+                        android:layout_marginTop="40dp"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

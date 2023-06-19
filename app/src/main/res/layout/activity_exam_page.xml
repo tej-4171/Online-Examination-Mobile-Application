@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img15"
+    tools:context=".ExamPage">
+
+    <TextView
+        android:id="@+id/timmer"
+        android:layout_width="150dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round2"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="175dp"
+        android:layout_height="200dp"
+        android:src="@drawable/img12"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/e2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:gravity="center|left"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginEnd="25dp"/>
+
+    <TextView
+        android:id="@+id/e1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:gravity="center|left"
+        android:layout_marginTop="210dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginEnd="25dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D8BFD8"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="350dp"/>
+
+    <TableLayout
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="400dp"
+        android:padding="25dp">
+
+        <TableLayout>
+
+            <TextView
+                android:text="Instructions"
+                android:textSize="24dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#A06C4D4D"/>
+
+        </TableLayout>
+
+        <TableRow>
+
+            <TextView
+                android:text="Total Questions"
+                android:textSize="28dp"
+                android:gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:background="#6EB1AB"/>
+
+            <TextView
+                android:text="5"
+                android:textSize="28dp"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:background="#668E8A"/>
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="Correct Answer"
+                android:textSize="28dp"
+                android:gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:background="#6EB1AB"/>
+
+            <TextView
+                android:text="10"
+                android:textSize="28dp"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:background="#668E8A"/>
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="Wrong Answer"
+                android:textSize="28dp"
+                android:gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:background="#6EB1AB"/>
+
+            <TextView
+                android:text="0"
+                android:textSize="28dp"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:background="#668E8A"/>
+
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:text="Max Score"
+                android:textSize="28dp"
+                android:gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:background="#6EB1AB"/>
+
+            <TextView
+                android:text="50"
+                android:textSize="28dp"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:background="#668E8A"/>
+
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="24dp"
+        android:layout_marginTop="750dp"
+        android:layout_marginStart="150dp"
+        android:backgroundTint="#FFBB86FC"/>
+
+
+</RelativeLayout>

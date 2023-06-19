@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".folder">
+
+    <include layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imv1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="25dp"
+                    android:src="@drawable/imgmc"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MC"
+                    android:textSize="28dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="200dp"
+                    android:layout_marginStart="80dp"/>
+
+                <ImageView
+                    android:id="@+id/imv2"
+                    android:layout_width="150dp"
+                    android:layout_height="145dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="225dp"
+                    android:src="@drawable/imgai"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AI"
+                    android:textSize="28dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="200dp"
+                    android:layout_marginStart="290dp"/>
+
+                <ImageView
+                    android:id="@+id/imv3"
+                    android:layout_width="150dp"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginStart="25dp"
+                    android:src="@drawable/imgcns"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CNS"
+                    android:textSize="28dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="450dp"
+                    android:layout_marginStart="75dp"/>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/exam"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Start Exam ->"
+        android:textSize="28dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="725dp"
+        android:layout_marginStart="50dp"
+        android:background="@drawable/round" />
+
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/img13">
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:text="Sign Up"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="100dp"
+        android:fontFamily="@font/tyus" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:hint="Name"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:gravity="center"
+        android:background="@drawable/custombutton"/>
+
+    <EditText
+        android:id="@+id/regno"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="280dp"
+        android:hint="Admin ID"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@drawable/custombutton"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="360dp"
+        android:hint="Email"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@drawable/custombutton"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="440dp"
+        android:hint="Password"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@drawable/custombutton"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="520dp"
+        android:hint="Confirm pwd"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@drawable/custombutton"/>
+
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="670dp"
+        android:backgroundTint="#A0BA"
+        android:text="Register"
+        android:textSize="14dp"/>
+
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="670dp"
+        android:backgroundTint="#A0BA"
+        android:text="Back"
+        android:textSize="14dp"/>
+
+
+</RelativeLayout>
